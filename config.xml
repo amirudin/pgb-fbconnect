@@ -11,6 +11,12 @@
         Test fbConnect Plugin
     </description>
 
+	<!-- FB Connect Section -->
+	<gap:plugin name="com.phonegap.plugins.facebookconnect">
+		<param name="APP_ID" value="404773922960566" />
+		<param name="APP_NAME" value="PGB FBApp" />
+	</gap:plugin>
+
     <author href="https://sub.example.com" email="someone@email.com">
         Yourname
     </author>
