@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <widget xmlns="http://www.w3.org/ns/widgets" 
 	xmlns:gap="http://phonegap.com/ns/1.0" 
-	id="com.inappbrowser.pgbtest" 
+	id="com.phonegap.pgbfbtest" 
 	version="1.0.0">
 	
     <name>
@@ -13,8 +13,8 @@
 
 	<!-- FB Connect Section -->
 	<gap:plugin name="com.phonegap.plugins.facebookconnect">
-		<param name="APP_ID" value="404773922960566" />
-		<param name="APP_NAME" value="pgbfbapp" />
+		<param name="APP_ID" value="XXXX" /> <!-- FB App ID-->
+		<param name="APP_NAME" value="XXXX" /> <!-- FB App Namespace-->
 	</gap:plugin>
 
     <author href="https://sub.example.com" email="someone@email.com">

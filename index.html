@@ -145,7 +145,8 @@
             document.addEventListener('deviceready', function() {
                                       try {
                                       alert('Device is ready! Make sure you set your app_id below this alert.');
-                                      FB.init({ appId: "404773922960566", nativeInterface: CDV.FB, useCachedDialogs: false });
+									  //Put your FB APP_ID here!
+                                      FB.init({ appId: "APP_ID", nativeInterface: CDV.FB, useCachedDialogs: false });
                                       document.getElementById('data').innerHTML = "";
                                       } catch (e) {
                                       alert(e);
